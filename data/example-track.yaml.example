@@ -1,0 +1,41 @@
+EXAMPLE_TRACK:
+  displayName: Example_track
+  category: A
+  description: Description of track
+  milestones:
+    - summary: First Milestone summary
+      signals:
+        - First signal
+        - Second signal
+        - Third signal
+      examples:
+        - First example
+        - Second example
+        - Third example
+    - summary: Second Milestone summary
+      signals:
+        - First signal
+        - Second signal
+        - Third signal
+      examples:
+        - First example
+        - Second example
+        - Third example
+    - summary: Third Milestone summary
+      signals:
+        - First signal
+        - Second signal
+        - Third signal
+      examples:
+        - First example
+        - Second example
+        - Third example
+    - summary: Fourth Milestone summary
+      signals:
+        - First signal
+        - Second signal
+        - Third signal
+      examples:
+        - First example
+        - Second example
+        - Third example
