@@ -182,7 +182,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             <NightingaleChart
                 milestoneByTrack={this.state.milestoneByTrack}
                 focusedTrackId={this.state.focusedTrackId}
-                handleTrackMilestoneChangeFn={(track, milestone) => this.handleTrackMilestoneChange(track, milestone)} />
+                handleTrackMilestoneChangeFn={(track, milestone) => this.handleTrackMilestoneChange(track, ((milestone: any): Milestone))} />
           </div>
         </div>
         <TrackSelector
@@ -197,7 +197,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
         <Track
             milestoneByTrack={this.state.milestoneByTrack}
             trackId={this.state.focusedTrackId}
-            handleTrackMilestoneChangeFn={(track, milestone) => this.handleTrackMilestoneChange(track, milestone)} />
+            handleTrackMilestoneChangeFn={(track, milestone) => this.handleTrackMilestoneChange(track, ((milestone: any): Milestone))} />
         <div style={{display: 'flex', paddingBottom: '20px'}}>
           <div style={{flex: 1}}>
             Made with ❤️ by <a href="https://medium.engineering" target="_blank">Medium Eng</a>.
@@ -238,7 +238,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
     let milestone = prevMilestone + delta
     if (milestone < 0) milestone = 0
     if (milestone > 5) milestone = 5
-    this.handleTrackMilestoneChange(this.state.focusedTrackId, milestone)
+    this.handleTrackMilestoneChange(this.state.focusedTrackId, ((milestone: any): Milestone))
   }
 
   setTitle(title: string) {
