@@ -1,0 +1,42 @@
+MENTORING_AND_TRAINING:
+  displayName: Mentoring and training
+  category: Strengthening
+  description: Provides support to colleagues, spreads knowledge, and develops the team outside formal reporting structures
+  milestones:
+    - summary: Informally mentors individuals in an ad-hoc way, supports new hires, and conveys institutional knowledge
+
+      signals:
+        - Be available to provide informal support and advice
+        - Acts as sounding board for peers and more junior members
+        - Provides sound advice when asked
+      examples:
+        - Helped a new colleague get set up to build dotcom
+        - Paired with an engineer to help them configure webpack to use it in a new project
+        - Help a colleague to clarify their thoughts on a problem
+    - summary: Mentors people proactively, and guides people to realizations rather than providing the answer
+      signals:
+        - Takes time to explain concepts and best practices
+        - Asks questions to illuminate concepts, rather than stating them
+        - Allows others to lead efforts when it will help their development
+      examples:
+        - Shared an article with a team member to help with their growth
+        - Offered unprompted feedback to help growth, with empathy
+        - Lead from behind to support someone new to a leadership role
+    - summary: Teaches small groups of engineers and contributes to the engineering knowledge in the Guardian
+      signals:
+        - Avoids siloing information when it can be usefully shared with others
+        - Works to increase the bus factor of systems
+        - Increases the capability of the department
+      examples:
+        - Led a JS school session on Babel
+        - Wrote a developer blog post on dynamically scaling a website
+        - Led a 24/7 training session
+    - summary: Provide opportunities for others to spread knowledge and support their colleagues
+      signals:
+        - Coordinate knowledge sharing events
+        - Provide mentoring opportunities
+        - Arrange training for mentors/teachers
+      examples:
+        - Arranged tech time speakers
+        - Established system for pairing mentors/ees
+        - Coordinated mentor training workshop
