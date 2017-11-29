@@ -40,3 +40,45 @@ MENTORING_AND_TRAINING:
         - Arranged tech time speakers
         - Established system for pairing mentors/ees
         - Coordinated mentor training workshop
+
+EVANGELISM:
+  displayName: Evangelism
+  category: Strengthening
+  description: Promotes the Guardian to the outside world and establishes it as an attractive and thoughtful place to work
+  milestones:
+    - summary: Represents the Guardian well externally and influences individuals positively
+      signals:
+        - Shares personal and organizational successes with their network
+        - Attends Guardian events and talks with guests
+        - Communicates genuine and honest excitement about their work externally
+      examples:
+        - Attends Guardian hosted or external events and talks with guests
+        - Acts as guide for non-friend visitor to the Guardian office
+        - Shares a developer blog post or other Guardian content on Facebook
+    - summary: Participates more centrally in small events, and takes simple actions that positively influence groups of people
+      signals:
+        - Takes meaningful action to introduce people to the Guardian
+        - Joined public Slack group and represented the Guardian appropriately, and well
+        - Organizes positive small- or medium-sized events that bring people to the Guardian
+      examples:
+        - Volunteered at Silicon Milkroundabout
+        - Wrote developer blog post on how we do quality and shares it on various networks
+        - Gave lightning talk at local Scala meetup on monad transformers
+    - summary: Works hard to positively influence large groups of people on their views of the Guardian
+      signals:
+        - Mentors or participates in a high visibility way in an external organization
+        - Builds fruitful partnerships with external organizations
+        - Writes blog posts about the Guardian that receive moderate traffic
+      examples:
+        - Organises Women who Code meetups at the Guardian
+        - Open source Scribe and write accompanying developer blog post
+        - Gives talk on Machine Learning  at London Scala Exchange
+    - summary: Establishes the Guardian as an great, innovative company and workplace to the whole industry
+      signals:
+        - Establishes themself as an industry thought leader who attracts talent
+        - Publishes material about the Guardian’s organizational or technical innovations
+        - Leverages significant following to evangelise the Guardian
+      examples:
+        - Acts as client-side ‘guru’ by speaking at multiple prominent conferences
+        - Leads in the creation of a new server-side conference (Scale Summit), hosted at the Guardian
+        - Open-sourced and evangelised BFG Git helper to significant acclaim
