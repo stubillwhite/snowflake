@@ -61,7 +61,9 @@ type Tracks = {
 
 export const tracks: Tracks = compiledTracks;
 
-export const trackIds: TrackId[] = ((Object.keys(tracks): any): TrackId[])
+export const trackIds: TrackId[] = ((Object.keys(tracks): any): TrackId[]).sort((a, b) => {
+  return tracks[a].category > tracks[b].category ? 1 : -1
+})
 
 export const categoryIds: Set<string> = trackIds.reduce((set, trackId) => {
   set.add(tracks[trackId].category)
