@@ -1,6 +1,6 @@
 SERVER:
   displayName: Servers
-  category: A
+  category: Building
   description: Develops expertise in servers, using technologies such as Scala or Node
   milestones:
     - summary: Works effectively within established server side frameworks, following current best practices
@@ -42,7 +42,7 @@ SERVER:
 
 CLIENT:
   displayName: Client side
-  category: B
+  category: Building
   description: Develops expertise in web client technologies, such as HTML, CSS, and JavaScript
   milestones:
     - summary: Works effectively within established client side architectures, following current best practices
@@ -84,7 +84,7 @@ CLIENT:
 
 INFRASTRUCTURE:
   displayName: Infrastructure
-  category: C
+  category: Building
   description: Develops expertise in operations and data storage, including working with AWS and common databases like Postgres and Dynamo
   milestones:
     - summary: Works effectively within established deployment, monitoring and alerting processes, following current best practices
@@ -126,7 +126,7 @@ INFRASTRUCTURE:
 
 MOBILE:
   displayName: Mobile
-  category: D
+  category: Building
   description: Develops expertise in native app development for Android and iOS
   milestones:
     - summary: Works effectively within established iOS or Android architectures, following current best practices
