@@ -51,7 +51,7 @@ class TrackSelector extends React.Component<Props> {
               <td key={trackId} className="track-selector-value"
                   style={{border: '4px solid ' + (trackId == this.props.focusedTrackId ? '#000': categoryColorScale(tracks[trackId].category)), background: categoryColorScale(tracks[trackId].category)}}
                   onClick={() => this.props.setFocusedTrackIdFn(trackId)}>
-                {this.props.milestoneByTrack[trackId]}
+                {this.props.milestoneByTrack[trackId] || '0'}
               </td>
             ))}
           </tr>
