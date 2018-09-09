@@ -1,7 +1,7 @@
-CAREER_DEVELOPMENT:
-  displayName: Career Development
-  category: Supporting
-  description: Provides support to engineers to help them build the career they want.
+SERVER:
+  displayName: Server-side software
+  category: Engineering
+  description: Building server-side stuff
   milestones:
     - summary: First milestone summary
       signals:
@@ -29,10 +29,10 @@ CAREER_DEVELOPMENT:
       examples:
         - TODO
 
-WELLBEING:
-  displayName: Wellbeing
-  category: Supporting
-  description: Supports the emotional well-being of group members in difficult times, and celebrates their successes.
+QUALITY:
+  displayName: Quality
+  category: Engineering
+  description: Embodies and promotes practices to ensure excellent quality products and services
   milestones:
     - summary: First milestone summary
       signals:
@@ -60,10 +60,10 @@ WELLBEING:
       examples:
         - TODO
 
-COMMUNITY:
-  displayName: Community
-  category: Supporting
-  description: Builds community internally, gives of themself to the team, and champions and extols company values.
+TECHNOLOGY_ADVOCATE:
+  displayName: Advocate
+  category: Engineering
+  description: Identifies and advocates new technology?
   milestones:
     - summary: First milestone summary
       signals:
@@ -90,3 +90,4 @@ COMMUNITY:
         - TODO
       examples:
         - TODO
+
