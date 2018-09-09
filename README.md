@@ -1,12 +1,7 @@
-# Guardian Snowflake
+# Snowflake
 
-Guardian fork of the wonderful
-[Medium Snowflake](https://github.com/medium/snowflake), for which we
-are grateful.
-
-Currently available here:
-
-[http://com-gu-snowflake.s3-website-eu-west-1.amazonaws.com](http://com-gu-snowflake.s3-website-eu-west-1.amazonaws.com/#1,2,3,2,4,1,1,4,3,2,0,4,2,2,3,0,Cersei%20Lannister,Staff%20Engineer)
+Fork of the [Guardian Snowflake](https://github.com/guardian/snowflake) fork of the wonderful
+[Medium Snowflake](https://github.com/medium/snowflake). 
 
 ## Installation
 
